@@ -1,0 +1,16 @@
+Como funciona el internet
+
+Explicación del cliente-servidor.
+
+El servidor es el computador central que tiene todos los archivos y recursos de
+la página y los clientes son las demás máquinas que acceden a ella mediante
+el protocolo HTTP para comunicarse.
+
+El canal es el internet. La IP (Internet Protocol) nos indica la ruta a la cual
+queremos enlazarnos desde nuestra computadora de lado cliente. La IP identifica
+la computadora que contiene el sitio web que queremos.
+
+Para conocer la IP de una página lo podemos hacer mediante ping y escribiendo
+el nombre del dominio. Hay que recordar que una dirección IP es muy difícil de
+recordar y es por ello que existe el DNS (Domain Name System). El DNS se encarga
+de empatar una URL con la dirección IP.
