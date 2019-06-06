@@ -1,0 +1,4 @@
+Archivos HTML
+
+Creación de nuestro primer archivo para el proyecto CV y explicación de como
+usar un editor de texto (en este caso ATOM).
