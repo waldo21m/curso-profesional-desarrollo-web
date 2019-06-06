@@ -1,0 +1,30 @@
+Acerca del proyecto del curso
+
+Se separará el aprendizaje en 3 etapas (todas acompañadas con un proyecto).
+
+En la primera etapa, conoceremos por primera vez las tecnologías de un proyecto
+web. Crearemos una página con nuestro CV. Esto servirá para compartir a
+través de una dirección web nuestra experiencia de trabajo. También veremos
+algunos tips de como escribir nuestro historial de trabajo de manera óptima.
+
+En la segunda etapa donde formalizaremos los conocimientos que ya conocemos
+en la primera etapa, vamos a crear un portal con boletines. Aquí nos
+pondremos más creativos. Uriel Hernández creará un ranking de sus sitios
+favoritos para ir a comer, pero nuestro objetivo (idealmente) es crear algo
+distinto (como crear los mejores equipos de fútbol, sitios webs de aprendizajes
+favoritos, etc).
+Este proyecto nos permitirá explorar nuevos aspectos de la creación de sitios
+webs. Crearemos una página con un diseño mucho más atractivo que el primer
+proyecto que además se vea impecable en todos los dispositivos y que explote
+nuestra creatividad.
+
+Por último, crearemos un sitio web para un negocio. Uriel escogerá uno pero
+podremos escoger el que más nos convenga. Puede ser uno ficticio o el de un
+conocido o familiar. Este proyecto va a contener nuevos desafios como 
+programación en JavaScript, tecnologías de las que quizás no hallamos escuchado
+como Webpack, Sass, Service Worker y más.
+
+Esta etapa del curso está pensado para que aprendamos a crear sitios de manera
+productiva y eficiente, con código legible al que sea fácil de dar mantenimiento
+y en el que podamos encontrar errores de manera sencilla como lo hace un
+desarrollador web en su trabajo día a día.
