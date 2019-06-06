@@ -1,0 +1,9 @@
+Conocimientos previos
+
+No requiere de conocimientos técnicos. Aquí aprenderemos todas las herramientas
+junto con una serie de desafios para ir aprendiendo. Algunas cosas primordiales
+pero no necesarias son fundamentos de programación, habilidad con el
+computador para poder instalar programas y hacer algunas configuraciones.
+
+De igual manera, podemos contar con el site de https://codigofacilito.com por si
+tenemos cualquier duda o inquietud.
