@@ -1,0 +1,46 @@
+El DNS y su funcionamiento
+
+El DNS funciona de la siguiente manera. Cuando escribimos google.com, el 
+navegador con la intención de no molestar a otros busca en sus registros a los
+que llamaremos CACHÉ para saber si sabe en que dirección IP está google.com.
+
+Estos registros se actualizan cada vez que visitamos un sitio web para que
+la segunda vez no haga todo ese recorrido de búsqueda que vamos a hablar
+ahorita.
+
+Si el navegador no consigue en sus registros o en su caché la IP correspondiente,
+le preguntará al Sistema Operativo, este buscará en su propia caché o en sus
+propios registros para saber si ya conoce cuál es la IP para dicha página (en
+este ejemplo google.com). Si no lo consigue, pasará a preguntar con el resolver.
+El resolver es nuestro proveedor de internet que normalmente llamamos ISP
+(internet service provider). El ISP también posee su propio caché donde puede
+buscar la IP de google.com, pero, si nadie antes en la red ha visitado dicho
+sitio, no lo va a encontrar y deberá buscarlo en el route.
+
+La función obligatoria del resolver es saber donde está el route en caso de que,
+entre en su caché, no encuentre la IP de la página solicitada.
+En el mundo solo existen 12 routes (eso no quiere decir que sea solamente 12
+computadoras), son operados por cientos de servidores o computadoras que están
+distribuidos a lo largo del mundo.
+
+Los routes tienen la función de enviarte con los TLDs o Top Level Domains. Estos
+TLDs son populares aunque no conozcamos el termino y son:
+    - .com
+    - .mx
+    - .net
+    - entre muchos otros.
+Los TLDs te pueden entregar los Name Servers que le corresponden a un sitio web,
+como google.com que estamos usando en este ejemplo. La información de los
+Name Servers llega a los TLDs cuando uno COMPRA ESE DOMINIO (cuando compras
+esa dirección web). Al registrar un dominio, el propietario indica los
+name servers. Ellos son la última cadena de la búsqueda, son ellos quienes te
+dirán la IP que corresponde a google.com.
+
+Una vez con la dirección, ya sabes a que computadora vas a dirigirte para poder
+solicitar el sitio web que el usuario quería. Por ser un camino largo, es por
+ello que en cada paso se guarda en un caché o en un registro para no realizar
+todo este proceso de búsqueda una y otra vez y termine en un determinado paso,
+dandote la IP correspondiente en el menor tiempo posible.
+
+Para saber más de este tema podemos investigarlo en:
+howdns.works
