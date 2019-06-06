@@ -1,0 +1,36 @@
+HMTL
+
+Es un lenguaje de marcado y sus siglas significa:
+    - Hyper.
+    - Text.
+    - Markup.
+    - Languaje.
+
+En conjunto sería un lenguaje de marcado de hipertexto. La parte del marcado
+hace referencia al uso de etiquetas que describe el texto y los elementos que
+forman parte del documento HTML.
+
+La parte de hipertexto hace de referencia a la base de la web y de HTML, es
+decir los links. De hecho, el nombre para estos enlaces es hyperlink. 
+
+¿Porqué en ambas palabras usan el término hyper?
+Hyper indica que no existe un orden lineal para moverte a través de los links.
+Como sabemos, podemos navegar por la web sin necesidad de tener un recorrido
+predefinido.
+
+Las etiquetas son importantes en HTML y existe un número finito de ellas. La
+w3schools tiene estándarizado todo eso (w3schools.com/tags/ref_byfunc.asp).
+Las etiquetas las usamos para definir elementos HTML.
+<p>Hola mundo</p>
+La etiqueta p se refiere a que este elemento es un párrafo.
+
+También existen las self closing tags, un ejemplo es la etiqueta imágen:
+<img />
+
+Otro aspecto interesante de un documento HTML es que un elemento puede contener
+a otros elementos dentro de si mismos. Ejemplo:
+<div>
+    <p>Estoy dentro de un elemento div</p>
+</div>
+
+Aquí vamos generando el árbol jerarquía que se hablará más adelante.
