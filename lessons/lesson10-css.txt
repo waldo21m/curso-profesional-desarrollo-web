@@ -1,0 +1,35 @@
+CSS
+
+Cuando desarrollamos una página web empezamos por la estructura y los elementos
+que la componen. Eso como vimos, lo realizamos con HTML. 
+
+Luego viene la presentación. Este aspecto, le corresponde a una tecnología
+distinta a la que llamamos CSS. La recomendación es siempre separar el contenido
+de la presentación (Es decir, tener nuestros archivos .html y nuestros
+archivos .css)
+
+CSS significa Cascading Style Sheets u hojas de estilo en cascada. La parte
+fácil del termino son las hojas de estilo que se encargan de la presentación y
+estilos de los elementos de nuestro HTML a través de la modificación de las
+propiedades de estos elementos.
+
+Para escribir una propiedad es de esta manera:
+    background-color: red;
+
+La parte más rebuscada es la de cascada y nos tomará varias clases internalizar
+este concepto. Supongamos que estamos usando una librería o framework de CSS
+que nos ayuda a maquetar una página web desde cero... Si no queremos usar ciertas
+propiedades, el concepto de cascada es muy importante ya que podremos 
+SOBREESCRIBIR las propiedades ya establecidas de la librería. Entender este
+concepto nos ayudará a cometer menos bugs y entender el porque cuando aplicamos
+ciertas propiedades no las podremos visualizar en nuestro documento.
+
+En el concepto de cascada existe una precedencia, un orden de importancia,
+dependiendo de si aplica tus estilos en línea, en una hoja, en que orden se
+importaron las hojas, el tipo de selector que usamos, etc.
+
+Más adelante iremos entendiendo claramente cada uno de los conceptos que se
+acaban de mencionar. Por ahora, lo que tendremos que entender que el CSS 
+es usado para la presentación de los documentos .html y que existen en el
+camino muchas librerías y frameworks muy robustos que nos podrán ayudar y
+agilizar el trabajo.
