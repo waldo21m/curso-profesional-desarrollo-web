@@ -1,0 +1,9 @@
+Introducción al curso desarrollo web
+
+Curso para crear páginas web de forma básica (como crear un CV en línea y
+subirlo) hasta sitios más complejos como páginas empresariales que no necesitan
+acceso sin internet y con las tecnologías más modernas. Todo para formar parte
+de una de las industrias que crece en el mundo.
+
+Con esto tendremos la base para crear páginas personales y poder vender páginas
+para empresas o negocios. No hace falta experiencia previa alguna.
