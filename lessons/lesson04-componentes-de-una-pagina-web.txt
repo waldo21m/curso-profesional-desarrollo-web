@@ -1,0 +1,14 @@
+Componentes de una página web
+
+Las páginas webs se componen de distintos elementos. El primero de ellos y de 
+caracter obligatorio es un documento HTML. Aqui se define la estructura del
+sitio. Dentro, podremos importar otros componentes de importancia (como imágenes
+por ejemplo).
+
+Además, los sitios modernos contienen archivos CSS (quien se encarga del estilo)
+y código de programación (habitualmente JS) que contienen instrucciones en código
+que define como interactua el sitio web con el usuario de forma dinámica.
+
+En general, las tres tecnologías que componen un sitio web son HTML, CSS y JS,
+junto con algo que se llaman los assets que contienen las imágenes, las fuentes,
+vídeos, audios y más.

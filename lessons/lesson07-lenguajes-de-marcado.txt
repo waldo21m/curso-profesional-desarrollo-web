@@ -1,0 +1,18 @@
+Lenguajes de marcado
+
+Explicación del Markup Language (en este caso HTML y XML). El HTML es usado en
+el desarrollo web mientras que el lenguaje XML es muy popular en el desarrollo
+móvil.
+
+Tanto en HTML como en XML, el marcado se diferencia del texto por el uso de
+etiquetas. Estas etiquetas se distinguen porque van redondeados de un símbolo
+de menor que mayor que. Estas etiquetas rodean al texto que van a marcar o
+enriquecer. Ejemplo:
+<p>Hola mundo</p>
+
+La etiqueta de cierre en ambos lenguajes de marcado se caracteriza por tener
+una diagonal antes del nombre de la etiqueta.
+
+Las etiquetas son usadas para entender el documento, por un lado, para definir
+la jerarquía de la página web a traves de un árbol al que llamamos el
+Document Object Model o DOM y después para entender semánticamente el documento.
