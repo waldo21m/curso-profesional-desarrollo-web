@@ -1,0 +1,15 @@
+Encabezado de nuestra página
+
+La etiqueta header sirve para especificar encabezados en nuestras páginas web.
+El uso de header es para todos nuestros encabezados de nuestra página web.
+Puede ser el encabezado de una sección, de toda la página o de un elemento,
+siempre que sea un encabezado usamos header.
+
+Los divs es quizás la más usada dentro de un sitio web. No tiene significado
+especial ni una función específica más que la de agrupar elementos. 
+Principalmente buscamos agrupar elementos dentro de otro elemento para que
+cuando modifiquemos las propiedades CSS, podamos bien limitar las modificaciones
+hacia ese grupo o que todo el grupo comparta ciertas propiedades del diseño.
+
+También usamos divs para crear elementos cuyo único proposito es recibir
+propiedades CSS 
