@@ -1,0 +1,15 @@
+Espacios en blanco
+
+Explicación del elemento section en:
+https://developer.mozilla.org/es/docs/Web/HTML/Elemento/section
+
+Para centrar un elemento block de forma horizontal, lo podemos realizar con las
+propiedades:
+    margin-left: auto;
+    margin-right: auto;
+Mientras que los elementos inline, inline-block, inline-flex o inline-table se
+realiza con la propiedad:
+    text-align: center;
+
+Para saber si lo estamos centrando de forma correcta, lo ideal es colocarle un
+background-color para ver el contenedor.
