@@ -1,0 +1,4 @@
+Títulos
+
+Los h1 solo se usan una sola vez por cada documento. Debemos evitarlo a toda
+costa.
