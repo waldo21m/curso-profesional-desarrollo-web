@@ -1,0 +1,15 @@
+Colores y fondos
+
+https://flatuicolors.com/
+
+En una página web también podemos usar degradados como fondo de nuestros
+elementos. La definición de un degradado tiene su propia sintáxis ya que CSS
+es muy flexible al respecto. El tema de degradados se cubre en el vídeo 12
+del curso a fondo de CSS.
+
+Para los degradados, podemos recurrir a las siguientes páginas:
+https://uigradients.com/
+https://webgradients.com/
+
+Estas nos proveen de códigos CSS para copiar y pegar. Tan simple como eso y
+también nos provee de distintos degradados para interfaces.
