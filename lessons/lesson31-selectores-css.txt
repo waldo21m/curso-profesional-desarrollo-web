@@ -1,0 +1,4 @@
+Selectores css
+
+Para este proyecto, usaremos los selectores por nombre (o etiqueta), los de
+clases y los de id.
