@@ -1,0 +1,9 @@
+Iconos
+
+Un icono es la representación gráfica de algo. Podemos usar CSS Image Sprites
+pero es una solución complicada. Otra opción es usar los iconos de Material
+Design https://material.io/tools/icons/ o los que usa la mayoría de la
+comunidad llamado fontawesome https://fontawesome.com/
+
+Una vez descargado solo usaré (por esta lección) las carpetas css y webfonts
+para que se muestren los iconos deseados.

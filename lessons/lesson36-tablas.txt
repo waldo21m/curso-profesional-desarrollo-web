@@ -1,0 +1,4 @@
+Tablas
+
+Las tablas tienen la función de organizar datos en forma de data. Ya no se usa
+para maquetar sitios webs.

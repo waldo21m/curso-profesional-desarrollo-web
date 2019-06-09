@@ -1,0 +1,30 @@
+Normalizador CSS
+
+Como hemos visto en muchas ocasiones a lo largo del curso, cuando un navegador
+despliega un elemento HTML, agrega una serie de propiedades CSS que el
+navegador mismo predefine. Estas son propiedades que por defecto, se agregan a
+distintos elementos.
+
+Generalmente, estos cambios son más drásticos si, en lugar de cambiar de
+navegador cambiamos de dispositivo. El mismo botón en Mac se ve distinto en
+Windows y además quizás se ve distinto en Android.
+
+Para evitar estas diferencias, solemos usar algo a lo que llamamos normalizadores 
+de CSS, que no son más que archivos que eliminan estos valores por defecto
+que los clientes agregaron a los elementos. Por eliminar queremos decir que los
+valores asignados se sustituyen por otros que sean iguales en todos los clientes.
+
+Estos nuevos valores no se definen aleatoreamente. La comunidad ha estudiado
+a lo largo de los años para saber cuales son los adecuados para normalizar los
+estilos a través de todos los clientes. Y como resultado de este estudio, han
+generado archivos que podemos reciclar con los valores por defecto para nuestros
+sitios webs.
+
+Una de las librerías más populares para esto es Normalize.css que tiene como
+objetivo de que los navegadores rendericen todos los elementos de forma
+consistente y con un estándar moderno (también tienen como nombre de reseteadores
+de CSS).
+https://necolas.github.io/normalize.css/
+
+Ya sabremos que para todos nuestros proyectos, debemos iniciar es normalizando
+el CSS.

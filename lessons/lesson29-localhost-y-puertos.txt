@@ -1,0 +1,35 @@
+Localhost y puertos
+
+localhost es un hostname. Un hostname es un nombre o una etiqueta que se
+asigna a un dispositivo dentro de la red, por ejemplo: Si tenemos muchos
+dispositivos conectados a un mismo modem, esto quiere decir que todos estos
+dispositivos pertenecen a una misma red. Sería posible que para comunicarse
+entre estos dispositivos, se asignen nombres que eviten que tengan que
+recordar las direcciones numéricas que el modem le asigna a cada uno. A
+esto se le llama hostname.
+
+Volviendo al locahost es una etiqueta que se le asigna al dispositivo local,
+por lo que, cuando usamos localhost en nuestra computadora, estamos intentando
+conectarnos a la red interna de tu computadora que es la que está ejecutando
+el servidor web.
+
+Ahora tenemos el puerto. En la lección pasada, elegimos el puerto 8000. Los
+puertos son puntos de entrada por los que se pueden comunicar las aplicaciones
+que están conectadas en red. Las computadoras tienen hasta 65535 puertos sobre
+los que se pueden colocar aplicaciones para comunicarse vía a la red. Es decir,
+65535 entradas a tu computadora vía red. 
+
+Los que van del 0 al 1023 son los que se conocen como puertos del sistema. Se
+conocen así porque ya tienen una tarea asignada por el sistema mismo. En
+palabras simples, solo la computadora puede usar estos puertos y no están
+disponible para nosotros los desarrolladores. A partir del 1024 en adelante,
+podemos usar los puertos que queramos. Sin embargo, existe una lista con
+ciertos puertos apartados que NO DEBERÍAMOS USAR.
+https://es.wikipedia.org/wiki/Anexo:N%C3%BAmeros_de_puertos_de_red
+
+Para seguir la convención, podemos usar los puertos 8000, 8080 o 3000.
+
+Cuando navegamos por internet no estamos colocando un puerto. El sistema
+seguirá funcionando porque el navegador asume que estamos usando el puerto 80
+que es el de protocolo HTTP. Si la página es encriptada, el protocolo es
+el 443 (HTTPS).

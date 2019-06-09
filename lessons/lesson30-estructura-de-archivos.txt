@@ -1,0 +1,12 @@
+Estructura de archivos
+
+Se recomienda que cada vez que iniciemos un proyecto, tengamos un estándar de
+como vamos a organizar nuestros archivos. Para esta lección, crearemos un
+nuevo proyecto llamado boletines que contendrá lo siguiente:
+    - assets
+        + css
+        + images
+        + scripts
+      index.html
+assets hace referencia a los recursos o elementos que vamos a necesitar para
+el desarrollo del proyecto.

@@ -4,6 +4,7 @@ Usaremos Github Pages para subir nuestro proyecto. Para ello, no hace falta
 descargar https://desktop.github.com/ pero subiremos nuestro proyecto a github.
 Desde el apartado de configuraciones, vamos a github pages y escogemos la
 rama donde mostrará los archivos de nuestro proyecto. Una vez realizado,
-ingresamos con el link curso-profesional-desarrollo-web.github.io/cv
+ingresamos con el link 
+https://waldo21m.github.io/curso-profesional-desarrollo-web/cv/
 
 Se puede realizar con GitLab también pero es un proceso un poco más complejo.

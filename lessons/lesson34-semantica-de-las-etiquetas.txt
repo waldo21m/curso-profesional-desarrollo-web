@@ -1,0 +1,49 @@
+Semántica de las etiquetas
+
+¿Cuándo usar las etiquetas de forma correcta?
+Empecemos por las etiquetas por controles o widgets. Es muy fácil distinguir
+cual usar porque todas tienen un uso casi definido. Ejemplo: Si queremos usar
+una imágen usamos la etiqueta <img src="" alt="">, si queremos usar un botón
+usamos <button></button>, etc.
+
+Ahora están las que tienen un valor semántico para el sitio, como por ejemplo:
+    <h1></h1>
+    <section></section>
+    <header></header>
+    <nav></nav>
+    <article></article>
+    <footer></footer>
+    <address></address>
+Y otras más. Estas etiquetas tienen un valor semántico, mismas que no se ven
+por lo cuál no queda claro como y cuando deben utilizarse comúnmente. La
+semántica es la parte de la lingüistica que estudia el significado de las
+expresiones y precisamente ese mismo concepto aplica a nuestro contexto en
+desarrollo.
+
+La semántica no afecta la apariencia de nuestra página pero si el significado.
+Para denotar la importancia de darle significado en nuestro sitio web,
+intentamos primero de ver que existen dos tipos de usuario que pueden acceder a
+nuestro sitio web. Las personas que pueden deducir el significado del sitio
+viendolo. Por otro lado, están otros tipos de usuarios que son los robots
+o programas de computadoras. Ellos también pueden acceder a nuestros sitios
+webs y estos no pueden entender el significado viendo la página porque no la
+ven y en cambio, entienden la página leyendo las etiquetas del documento y
+metadatos de nuestro sitio.
+
+Estos programas reciben distintos nombres dependiendo del proposito del porque
+entran en nuestras páginas. Existen los crawlers, las arañas, los scrapers y
+otros. Estos programas son necesarios para el funcionamiento del internet.
+El ejemplo más claro de estos son aquellos que leen sitios webs de todos lados
+con el proposito de indexarlos para que después, un usuario pueda buscarlos.
+
+Es de ahí que funciona google, bing, etc. Ellos tienen muchos programas que se
+encargan de buscar por toda la web para indexarlos. Es por eso, que es muy
+importante de darle el significado correcto a nuestras páginas para que los
+programas nos entiendan.
+
+Si Google no puede entender nuestro sitio, ¿Cómo hará para mostrarlo en el
+resultado de las búsquedas? La respuesta es simple, si no se entiende, nadie
+nos encontrará.
+
+A lo largo del curso, entenderemos cuando debemos usar ciertas etiquetas y 
+cuando no debemos usarlas.
