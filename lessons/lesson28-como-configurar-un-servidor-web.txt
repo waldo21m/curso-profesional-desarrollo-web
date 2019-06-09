@@ -1,0 +1,53 @@
+Cómo configurar un servidor web
+
+De temas anteriores, sabemos que cuando nos refererimos a servidores webs,
+pueden ser dos cosas
+    1. A la computadora que aloja o almacena un sitio web.
+    2. El programa que se encarga de procesar las peticiones de los clientes
+       para poder enviarte a la página web.
+Técnicamente, cualquier computadora que tenga estos programas se convierte en
+un servidor web. Eso incluye el computador personal en el cual precisamente
+estamos trabajando.
+
+Existe un tipo de servidor web diseñado específicamente para ser instalado en
+computadoras locales con propósitos de desarrollo. Cuando desarrollas
+profesionalmente vas a tener que hacerlo utilizando un servidor web de 
+desarrollo. La razón principal es la seguridad.
+
+Configuremos nuestro flujo de trabajo con un servidor web
+Un servidor web es un programa, mismo que puede escribirse en múltiples
+lenguajes de programación. De hecho, en muchos de los lenguajes, solo se requiere
+de una línea de código para escribir tal programa. Es tan simple que además,
+existen librerías que te permiten definir o ejecutar un programa como estos
+usando apenas un simple comando.
+
+En esta página podemos acceder https://gist.github.com/willurd/5720255 para
+poder correr un servidor http en un directorio especificado con el link de 
+http://localhost:8000. Sin embargo, usaremos nodejs.
+
+Nodejs es un etorno de ejecución de lenjuage JavaScript. Para ello, lo
+instalamos en https://nodejs.org/es/
+
+Una vez instalado, comprobamos que nodejs esté instalado con el comando:
+node -v
+(Debería aparecer el número de la versión)
+
+Junto con nodejs se instala el manejador de paquetes llamado npm con el cual
+podemos instalar librerías que están hechas para entornos de ejecución.
+Comprobamos que esté con el comando:
+npm -v
+(Debería aparecer el número de la versión)
+
+El servidor web lo vamos a instalar con el siguiente comando:
+npm install -g node-static
+
+Una vez instalado, probaremos el servidor web con nuestro CV. Para ello, desde
+la terminal vamos a la ruta donde está el proyecto. También, en vez de estar
+tipeando toda la dirección, podemos buscar la carpeta y arrastrarla a la
+terminal. Así, nos dará la ruta de la carpeta.
+
+Una vez dentro de la carpeta del cv, escribimos el comando:
+static -p 8000
+
+Y listo, podemos comprobar nuestro CV si tipeamos en el navegador la siguiente
+dirección: http://127.0.0.1:8000 o localhost:8000
