@@ -11,3 +11,7 @@ p {
 #boton-pago {
     background-color: yellow;
 }
+
+td {
+    border: solid 1px;
+}
