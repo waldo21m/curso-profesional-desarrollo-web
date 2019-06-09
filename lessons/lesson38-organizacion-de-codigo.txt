@@ -1,0 +1,15 @@
+Organización de código
+
+Es importante escribir código de forma legible ya que es de utilidad depurarlo
+en un futuro por si ocurre algun error o por si otro programador está trabajando
+en tu equipo. Así, no nos tomará mucho tiempo retomar dicho código y poder
+hacer las modificaciones necesarias. Para hacer esto, debe cumplir con dos
+puntos importantes:
+    1. Debe estar bien organizado.
+    2. Debe ser autodescriptivo.
+
+Consejos:
+    - Identar nuestro código (puede ser de 2 o 4 espacios y se realiza con la
+      letra tab).
+    - Usar correctamente nuestras etiquetas HTML (esto lo veremos más adelante).
+    - Usar comentarios para futuras referencias.
