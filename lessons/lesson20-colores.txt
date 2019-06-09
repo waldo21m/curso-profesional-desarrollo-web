@@ -1,0 +1,3 @@
+Colores
+
+Explicación de los colores hexadecimal, rgba, hsl y por nombres.

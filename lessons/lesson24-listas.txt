@@ -1,0 +1,24 @@
+Listas
+
+Existen tres tipos de listas en HTML:
+    - Ordenadas (ol-li).
+    - Desordenadas (ul-li). (Son las más usadas en el desarrollo web)
+    - De definición (dl-dt-dd).
+
+Las listas ordenadas son ideales para:
+    - Rankings.
+    - Clasificaciones.
+    - Posiciones.
+    - Elementos ordenados.
+    - Serie de pasos.
+    - Etc.
+
+Las listas desordenadas son ideales para:
+    - Elementos sin orden.
+    - Elementos en común.
+    - Elementos que describen.
+
+Las listadas de definición son ideales para:
+    - Diccionarios.
+    - Conceptos.
+    - Puntos con explicaciones.

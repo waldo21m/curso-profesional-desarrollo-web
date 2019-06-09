@@ -1,0 +1,4 @@
+Tipografia
+
+Cuando usamos la propiedad font-weight: 400; significa que la letra está en su
+grosor normal.

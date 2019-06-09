@@ -1,0 +1,10 @@
+El atributo style
+
+Es un atributo donde podemos aplicar propiedades CSS pero que un futuro
+dejaremos de usar porque no es una práctica aconsejable.
+
+En esta lección modificaremos varios elementos en bloque para que sean
+elementos en línea y le colocaremos un ancho definido.
+
+Cada uno de los elementos en bloque lo podemos ver en la siguiente lista:
+https://developer.mozilla.org/es/docs/Web/HTML/Block-level_elements

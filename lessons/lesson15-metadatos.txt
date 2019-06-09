@@ -1,0 +1,42 @@
+Metadatos
+
+Los metadatos son datos que describen a otros datos. Este concepto existe en
+otros contextos, como en la fotografía donde tenemos cosas en los metadatos
+como la ubicación y fecha en la que fue tomado una foto como parte de la
+información misma.
+
+Lo que diferencia un metadato de un dato en común es el hecho de que no son 
+la información central. Son información añadida sobre la información principal.
+En el caso, por ejemplo de la foto, lo importante son los datos que componen
+la imágen en que vemos y aquello que describe la imágen es únicamente información
+adicional.
+
+En las páginas webs ocurre de la misma manera. La información central es aquello
+que vemos en la página que, como vimos, es todo lo que se coloca dentro de la
+etiqueta body.
+
+Aún a pesar de esto, los metadatos cumplen con la función y es importante
+usarlos adecuadamente para mejorar la visibilidad de nuestro sitio web. Esta
+información se coloca usando la etiqueta meta.
+
+En la lección pasada lo usamos para definir el set de caracteres. En esta 
+lección, lo usaremos para colocar una descripción de nuestro sitio web. El
+atributo content para el metadato description no puede pasar de 160 caracteres.
+
+Para nuestro proyecto, podemos colocar un resúmen de nuestra carrera profesional
+ya que estamos realizando un CV.
+
+Otros metadatos importantes son los del protocolo Open Graph. El protocolo
+Open Graph es el que usa las RRSS para mostrarte previews o esos pequeños
+cuadritos con una imágen y texto de un link al momento en que lo publicas.
+
+El protocolo define los nombres que llevan los metadatos y que valor se le
+asigna a cada uno de ellos. Este ejemplo sería de la siguiente manera:
+    <meta name="og:title" content="CV de Eduardo Márquez">
+    <meta name="og:description" content="Eduardo Márquez es un Ingeniero de Sistemas dedicado a la programación web, con más de 3 años de experiencia trabajando como programador Fullstack">
+    <meta name="og:url" content="https://www.linkedin.com/in/emarquez3263/">
+    <meta name="og:site_name" content="Proyectos personales Eduardo">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="<url-image>">
+
+Existen múltiples metadatos que sirven para diversos propositos.

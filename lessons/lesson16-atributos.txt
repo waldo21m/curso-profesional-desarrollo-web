@@ -1,0 +1,11 @@
+Atributos
+
+Son elementos que van dentro de las etiquetas y se describen por lo general
+de un nombre y un valor. El valor va entre comillas dobles o simples.
+
+También existen atributos booleanos como por ejemplo autofocus y solo 
+devuelven un true o un false.
+
+Existen decenas de atributos y ciertos de ellos solo funcionan con algunas
+etiquetas y con otras no. Para saber más de ello, podemos investigar en
+w3schools.
