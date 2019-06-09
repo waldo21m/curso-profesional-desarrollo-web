@@ -25,3 +25,6 @@ objetivo de que los navegadores rendericen todos los elementos de forma
 consistente y con un estándar moderno (también tienen como nombre de reseteadores
 de CSS).
 https://necolas.github.io/normalize.css/
+
+Ya sabremos que para todos nuestros proyectos, debemos iniciar es normalizando
+el CSS.
