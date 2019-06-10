@@ -13,6 +13,15 @@ html {
     font-family: 'Nunito', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #3F51B5;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
 /* Degradado Dark Ocean de uigradients.com */
 
 .container {
@@ -34,6 +43,11 @@ html {
     width: 100%;
     height: 100%;
     background-color: #FFF;
+}
+
+.paragraph {
+    line-height: 1.8em;
+    font-weight: 300;
 }
 
 .red {
