@@ -50,16 +50,21 @@ a {
     font-weight: 300;
 }
 
-.red {
-    height: 200px;
-    width: 100px;
-    background-color: red;
+.fa-star, .fa-star-half-alt {
+    color: #FFC107;
 }
 
-#boton-pago {
-    background-color: yellow;
+.table {
+    width: 100%;
+    border-spacing: 0;
 }
 
-td {
-    border: solid 1px;
+.table td, .table th {
+    padding: 1em;
+    text-align: left;
+}
+
+.table tr:nth-child(even) {
+    background-color: #3F51B5;
+    color: #FFFFFF;
 }

@@ -1,0 +1,5 @@
+Estilizar tablas
+
+Aplicaremos una pseudo-clase llamada nth-child. Todas las propiedades necesarias
+las podemos ver en el siguiente link:
+https://developer.mozilla.org/es/docs/Web/CSS/:nth-child
