@@ -1,0 +1,6 @@
+Shorthand Properties
+
+Estas propiedades en CSS nos permiten especificar el valor de múltiples
+propiedades pero en una sola declaración. Existen Shorthand Properties para
+muchos grupos de propiedades (los bordes, los paddings, los margenes, las
+animaciones, los fondos, las tipografias y muchos más).

@@ -45,6 +45,7 @@ a {
     background-color: #FFF;
     /* box-shadow: diferenciaHorizontal, diferenciaVertical, desenfoque, amplitud, color */
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
 }
 
 .paragraph {
@@ -72,8 +73,32 @@ a {
 }
 
 .title-items {
-    border-bottom-style: solid;
+    /* border-bottom-style: solid;
     border-width: 2px;
-    border-color: #448AFF;
+    border-color: #448AFF; */
+
+    /* Usando Shorthand Properties */
+    border-bottom: solid 2px #448AFF;
+    /* Fijate que no usamos al final la palabra -style, -width, -color */
+    /* El orden de como van los valores puede ser cualquiera */
+
     padding-bottom: 1em;
+    /* Shorthand Properties de Padding */
+    /* padding: arriba derecha abajo izquierda; */
+    /* padding: arriba/abajo derecha/izquierda */
+    /* padding: todos-lados */
+}
+
+.position {
+    background-color: #448AFF;
+    color: #FFFFFF;
+    padding: 10px;
+    /* Sin Shorthand properties */
+    /* border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em; */
+
+    /* Con Shorthand properties */
+    border-radius: 4px;
 }
