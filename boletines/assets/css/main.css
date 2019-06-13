@@ -46,6 +46,28 @@ a {
     /* box-shadow: diferenciaHorizontal, diferenciaVertical, desenfoque, amplitud, color */
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
     border-radius: 4px;
+    position: relative;
+}
+
+.actions {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.close {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    border-radius: 50%;
+    background-color: #448AFF;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .paragraph {
