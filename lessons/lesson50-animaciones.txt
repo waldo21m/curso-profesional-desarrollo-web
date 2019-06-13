@@ -1,0 +1,27 @@
+Animaciones
+
+Las animaciones CSS son reglas que nos permiten definir una serie de pasos que
+debe seguir un elemento para crear una animación. Son fáciles de definir, de
+modificar y además son eficientes ya que, en la web existen muchas formas en 
+que podemos manipular elementos que afectan el rendimiento del sitio web,
+consumen mucha batería de los dispositivos móviles, entre otros problemas.
+
+Hablar de una metodología que es de alto rendimiento como son las animaciones
+en CSS es muy importante al trabajar con movimientos.
+
+Para crear una animación, primero debemos especificar los keyframes que la
+componen. Recuerda que una animación se componen de fotogramas y en cada
+fotograma, el elemento cambia su estado o se mueve ligeramente de manera que
+cuando juntas cientos de fotogramas y los pasas muy rápidos se genera la
+animación.
+
+El concepto de keyframes o fotogramas claves viene de que, en una animación
+como esta, unicamente definimos los puntos claves de la animación o fotogramas
+claves. Luego CSS en este caso se encarga de rellenar los fotogramas necesarios
+para pasar de uno a otro y que se genere la sensación de movimiento o de
+transición.
+
+En esta lección, usaremos la librería Animate.css
+
+Dentro de dicha librería podemos aprender como se definen las animaciones pero
+eso lo veremos más adelante en el Curso a fondo de CSS.
