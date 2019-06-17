@@ -1,0 +1,12 @@
+Pseudo clases
+
+Los elementos de una página web pueden encontrarse en diferentes estados. Cada
+uno de ellos puede recibir propiedades y estilos específicos para el momento
+en que el elemento se encuentre en dicho estado. Los estados son diferentes
+como:
+    - Hover: Que ocurre cuando el mouse está encima del elemento.
+    - Visited: Es exclusivo cuando el link fue visitado previamente.
+    - Active: Usado mucho en botones y links y se activa cuando presionas el 
+      botón.
+    - Focus: Es el estado que reciben los componentes cuando tienen el foco.
+      Lo podemos ver dandole con la tecla Tab hasta llegar al foco.

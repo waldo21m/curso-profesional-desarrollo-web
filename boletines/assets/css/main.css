@@ -18,6 +18,14 @@ a {
     color: #3F51B5;
 }
 
+a:hover {
+    opacity: 0.8;
+}
+
+a:focus {
+    background: red;
+}
+
 .title {
     text-transform: uppercase;
 }
