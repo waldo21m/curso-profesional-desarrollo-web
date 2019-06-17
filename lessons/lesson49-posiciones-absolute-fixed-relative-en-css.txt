@@ -1,0 +1,147 @@
+Posiciones (absolute, fixed, relative) en CSS
+
+Una de las propiedades que nos permite alterar el lugar en donde aparece un 
+elemento es la propiedad position, misma que define como un elemento deberá ser
+colocado o posicionado en la pagina web. Position no define en donde aparecerá
+sino como las posiciones o dimensiones especificadas en las propiedades top,
+left, bottom y right afectarán el lugar en donde se posicionará el elemento.
+
+Los valores de la propiedades position son los siguientes:
+    - static.
+    - relative.
+    - absolute.
+    - fixed.
+    - sticky.
+
+Todos los elementos desde que los creamos desde el inicio, empiezan con el valor
+static en la propiedad position. Se dice que estos elementos no están 
+posicionados ya que su posición no se altera en lo más mínimo por los valores
+top, left, right y bottom.
+
+Supongamos el siguiente ejemplo:
+En HTML tengo
+<div></div>
+
+Y en CSS tengo
+div {
+  background: red;
+  width: 200px;
+  height: 100px;
+  position: static;
+  top: 100px;
+  left: 200px;
+}
+
+No ocurrirá nada, pero si cambiamos el valor static a relative, si se moverá
+nuestro contenedor. Relative tomará como origen la posición en la que de por sí
+se encuentra.
+
+Por otro lado, si asignamos la posición fixed, la posición cambia por completo.
+Ejemplo:
+
+En CSS tengo
+body {
+  height: 120vh;
+}
+
+div {
+  background: red;
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  bottom: 100px;
+  right: 200px;
+}
+
+Cuando el valor de position es fixed, las propiedades especificadas, se añaden
+de manera relativa al viewport (el viewport es todo lo que vemos en pantalla).
+Cuando decimos que es relativo al viewport significa 2 cosas:
+    1. No importa en donde esté originalmente el elemento, se colocará relativo
+       a la pantalla.
+    2. MUY IMPORTANTE, no se verá afectado por el scroll aunque la página tenga
+       dichas barras.
+
+En el caso de absolute, la posición es relativa al contenedor más cercano que
+esté posicionado, es decir, que el valor de su propiedad position sea otro
+distinto a static. SI NINGÚN PADRE ESTÁ POSICIONADO, es relativo al viewport
+pero a diferencia de fixed si se ve afectado por el scroll. Ejemplo:
+
+En CSS tengo
+body {
+  height: 120vh;
+}
+
+div {
+  background: red;
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  top: 100px;
+  right: 200px;
+}
+
+Como no hay ningún otro contenedor posicionado, este último ejemplo será 
+relativo a el viewport. El cambio más importante con absolute se dá cuando se
+coloca en algún contenedor posicionado como en este ejemplo:
+
+HTML
+<div class="contenedor-posicionado">
+  <div class="elemento"></div>
+</div>
+
+CSS
+body {
+  height: 120vh;
+}
+
+.contenedor-posicionado {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background: blue;
+}
+
+.elemento {
+  background: red;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  right: 200px;
+}
+
+Si el contenedor de la clase .contenedor-posicionado no está posicionado, es
+relativo a toda la pantalla.
+
+Por último, tenemos sticky que es un valor especial que intercambia los valores
+del elemento entre relative y fixed dependiendo de si el elemento se sale del
+viewport o del scroll. Ejemplo:
+
+CSS
+body {
+  height: 120vh;
+}
+
+.contenedor-posicionado {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background: blue;
+  top: 200px;
+}
+
+.elemento {
+  background: red;
+  width: 200px;
+  height: 100px;
+  position: sticky;
+  top: 100px;
+  left: 200px;
+}
+
+Después de llegar a cierto punto, el elemento deja de moverse. Es decir, este
+contenedor empieza a ser de position relative y cuando llega hasta cierto punto
+pasa de ser relative a fixed.
+
+Aprendido todo este conocimiento, vamos a colocar un botón en las páginas
+individuales.

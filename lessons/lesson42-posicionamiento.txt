@@ -1,0 +1,38 @@
+Posicionamiento
+
+Vamos a hacer ahorita un ejercicio muy común, centrar un elemento horizontal y
+verticalmente.
+
+Para obtener el valor de toda la pantalla, podemos usar las unidades de medida
+en viewports. Para el caso del alto usamos la propiedad
+    height: 100vh;
+100vh representa el alto total de la pantalla
+Para el caso del ancho es de la siguiente manera
+    width: 100vw;
+100vw representa el ancho total de la pantalla.
+
+Podemos deducir entonces que:
+    - vh significa viewports height.
+    - vw significa viewports width.
+Pero no usaremos width porque ya por defecto agarra todo el ancho de la página.
+
+Ahora centraremos el elemento con flexbox. Y para ello, primero colocamos
+el valor de la propiedad display del padre como flex. Esto significa, que los
+nodos dentro de este contenedor adoptan su posición usando como herramienta 
+de posicionamiento y de layout Flexbox.
+
+Por último, para centrar los elementos colocamos las propiedades:
+    align-items: center;
+    justify-content: center;
+
+Dependiendo del contexto, uno centra de forma horizontal y el otro centra
+de forma vertical o viceversa, dependiendo de la dirección del layout.
+Esto se puede manipular con la propiedad flex-direction de CSS.
+
+Este es el ejercicio más sencillo que se puede lograr con flexbox y se decidió
+explicar porque habitualmente es un problema que surge en el día a día.
+Para aprender muy bien flexbox se recomienda hacerlo con el siguiente juego:
+https://flexboxfroggy.com/#es
+
+Además de flexbox, ya conocimos como posicionar elementos con 
+display: inline-block y veremos más formas de posicionamiento.

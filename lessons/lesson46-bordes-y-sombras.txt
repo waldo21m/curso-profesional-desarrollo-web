@@ -1,0 +1,5 @@
+Bordes y sombras
+
+En esta lección, le colocaremos bordes al título. Para saber más al respecto,
+podemos ingresar a la página https://www.w3schools.com/css/css_border.asp y
+estudiar cada uno de los casos.

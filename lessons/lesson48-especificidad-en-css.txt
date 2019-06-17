@@ -1,0 +1,74 @@
+Especificidad en CSS
+
+La especificidad es un peso que se le asigna a una declaración, entre mayor
+sea el peso, más alta es la presedencia para que las propiedades se apliquen
+al elemento.
+
+La presedencia es el orden en que el navegador decidirá que declaración
+aplicar. Veamos el siguiente ejemplo:
+
+En un codigo HTML tenemos:
+<div class="content"></div>
+
+En CSS tenemos:
+div {
+    height: 200px;
+    width: 600px;
+}
+
+div.content { background-color: yellow; }
+div { background-color: black; }
+.content { background-color: red; }
+
+La presedencia quedaría en lo siguiente. Primero se ejecuta el div.content,
+luego el .content y por último el div.
+
+El atributo style es el que tiene el orden jerarquico más alto, por lo que
+siempre se aplican estas propiedades antes que otras.
+
+La única forma en que un selector puede sobreescribir el atributo style es
+vía el uso de la regla !important donde esa propiedad cambia el nivel de
+presedencia.
+
+La etiqueta !important no juega ningún papel al especificar el peso de una
+declaración, simplemente indica que esa propiedad debe sobreescribir a
+todas las demás ignorando el peso que tengan. Esto nos puede sacar de cualquier
+apuro cuando no queda claro el porque tu declaración no está sobreescribiendo
+alguna otra pero DEBEMOS EVITARLA A CUALQUIER COSTA, ya que se considera
+mala práctica porque precisamente ignora el peso de los selectores.
+
+El orden jerárquico es de la siguiente forma:
+    1. !important
+    2. Atributo style
+    3. Selectores
+        3.1. Selectores por ID.
+        3.2. Selectores de clase, atributos y pseudo clases.
+        3.3. Selectores de tipo y pseudo elementos.
+
+No veamos esto como un ranking, es por peso y mientras más específico seamos
+tendrá más peso que uno u otro. Hagamos otro ejemplo:
+
+En un codigo HTML tenemos:
+<div class="content" id="div"></div>
+
+En CSS tenemos:
+div {
+    height: 200px;
+    width: 600px;
+}
+
+div.content { background-color: yellow; }
+div { background-color: black; }
+.content { background-color: red; }
+
+#div { background-color: blue; }
+#div.content { background-color: purple; }
+div#div { background-color: grey; }
+
+En este ejemplo, el estilo que escoge es por el selector #div.content por ser
+de mayor orden jerarquico y por ser incluso más específico.
+
+En resúmen podemos decir lo siguiente, tenemos la regla !important que
+sobreescribe cualquier otra declaración, tenemos el atributo style que tiene
+presedencia por sobre cualquier otro selector y luego va el orden jerarquico
+indicado anteriormente.

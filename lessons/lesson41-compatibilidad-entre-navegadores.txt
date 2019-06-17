@@ -1,0 +1,64 @@
+Compatibilidad entre navegadores
+
+Para que una nueva tecnología (como los degradados o las sombras que veremos más
+adelante) se integren a un navegador, se sigue una serie de pasos. Primero, el
+consorcio de la web (La w3c) esribe una especificación en donde se detalla como
+debe funcionar esta novedad. Que propiedades o etiquetas nuevas implicará, como
+se configurará, etc.
+
+Este proceso puede tardar incluso años entre cambios, mejoras y adaptaciones.
+Por ejemplo, podemos ver las especificaciones técnicas de css3 images en
+https://www.w3.org/TR/css3-images/, pero este lenguaje es un poco más técnico
+y pesado.
+
+En ocasiones, mientras el consorcio detalla el draft que es el documento 
+anterior, los navegadores empiezan a implementar esta nueva funcionalidad para
+probarla y que los desarrolladores como nosotros ayudemos a mejorar las
+especificaciones. Cada navegador, por su parte, prioriza ciertas funcionalidades
+de distintas maneras, lo que significa que no todos implementan la especificación
+al mismo tiempo, algunos le dan prioridad a una especificación y otros a una
+completamente diferente.
+
+Esto se resume que ciertas funcionalidades modernas pueden funcionar o no
+en ciertos navegadores. Es por ello que los desarrolladores deben de preveer
+cada uno de los escenarios para no comprometer las funcionalidades dependiendo
+del navegador (ya que debemos de cubrir todos de ser posible).
+
+Para esto, los desarrolladores han diseñado e implementado distintas estrategias.
+Una de las más populares lleva como nombre Progresive Enhancement que podemos
+traducir como mejora progresiva.
+
+En esta estrategia se prioriza el contenido. Es decir, que el proposito
+original de la página se pueda ver ignorando las novedades de la tecnología,
+animación, colores, degradados, etc. Y a partir de ahí, progresivamente
+mejorar el contenido con tecnología moderna.
+
+Cuando vemos el bloque de código del degradado, estamos de alguna manera
+siguiendo la estrategia de mejora progresiva. Los degradados es una tecnología
+que se implemento hace unos años. Sin embargo, hay personas que aún siguen
+usando navegadores muy antiguos.
+
+La mejora progresiva se ve reflejada en que, primero colocamos un fondo
+solido, que cualquier navegador pudiera entender y posteriormente los
+degradados. Lo interesante es que, CSS está diseñado de tal forma que si 
+no entiende la propiedad la ignora y las personas que no puedan ver ese
+código del degradado al menos podrán ver el contenido y tenemos una propiedad
+o un fondo que busca asemejarse al degradado.
+
+En resumidas cuentas, el navegador ignorará lo que no entiende y se quedará con
+lo que si entendió.
+
+En muchas ocasiones debemos cuestionarnos si vale la pena hacer una página
+con funcionalidades muy nuevas o que sea necesario que se adapte a navegadores
+muy viejos. Eso se consigue con estudios, saber que personas van a entrar en
+tu página, etc.
+
+Es por ello que deberíamos enfocarnos de que el sitio funcione en navegadores
+como Firefox, Chrome, Opera, Safari, Safari para el iOS, Android e internet
+explorer Edge (Internet explorer quizás pero es opcional). Además podemos
+guiarnos de la página https://caniuse.com/
+
+Can I use es una página donde se especifíca el soporte de navegadores a las
+distintas funcionalidades que se pueden implementar en un sitio web. Ahí,
+podemos ver si lo soporta, lo soporta de forma parcial o no soporta la
+funcionalidad dicho navegador.
