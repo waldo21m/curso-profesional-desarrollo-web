@@ -1,0 +1,10 @@
+Como probar el diseño responsivo de tu sitio
+
+Simplemente lo hacemos redimensionando el navegador para ver como se observa
+en distintos dispositivos. Pero, a veces el navegador no te da el tamaño de un
+dispositivo muy pequeño o no se comporta de manera similar.
+
+Para ello, lo que debemos hacer es abrir la consola de nuestro navegador y 
+acceder "Vista de diseño adaptable" (el icono que aparece los teléfonos). Desde
+allí, podemos escoger una de las opciones que nos ofrece y más para observar
+como se aprecia nuestra página en los distintos dispositivos.

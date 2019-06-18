@@ -1,0 +1,18 @@
+¿Qué es el diseño responsivo?
+
+Diseño responsivo significa que la página web se adapta a su entorno, normalmente
+al dispositivo en el que se ve tu sitio web. Hace algunos años, este concepto
+se popularizó como un beneficio adicional de algunas páginas web que al verlas
+en tu teléfono o tablet, te ofrecían una experiencia adecuada, en lugar de
+intentar ver una página diseñada para una pantalla grande en una más pequeña.
+
+A diferencia de ese tiempo, hoy es indispensable que todas las páginas webs 
+puedan verse en cualquier dispositivo, desde las pantallas más pequeñas como
+los teléfonos hasta las más grandes como monitores 4k, televisores e incluso
+algunas iMacs que son 5k, pasando por las tablets, laptops, relojes y mucho
+más.
+
+Habiendo cientos de resoluciones distintas, queda descartado hacer un diseño
+para cada una de ellas. Lo que se hace en la industria es diseñar una página
+web que se vaya adaptando, un diseño que fluya a través de todas las 
+resoluciones. A estas prácticas las conocemos como diseño responsivo.
