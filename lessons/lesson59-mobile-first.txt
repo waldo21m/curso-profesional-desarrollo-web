@@ -1,0 +1,40 @@
+Mobile first
+
+Desde el 2016 son más los usuarios que acceden a internet vía Smartphones que
+lo hacen a través de computadoras. Actualmente, más del 50% de los usuarios
+acceden al internet con teléfonos, un poco más del 4% usa tabletas y el resto,
+el 45% aproximadamente lo hace via computadoras de escritorio.
+
+Inicialmente, cuando los smartphones empezaron a popularisarse, la estrategia 
+que empleaban los desarrolladores de unicamente los principales sitios webs
+era adaptar las páginas hechas para computadoras a teléfonos. El resultado de
+este proceso fueron páginas mal adaptadas y forzadas para estos nuevos
+dispositivos que eventualmente se convirtieron en la fuente principal de visitas
+para sitios webs.
+
+En 2009, Luke Wroblewski introdujo el concepto de mobile first, una estrategia
+que invertía el proceso del diseño. Primero, se diseña para las pantallas más
+pequeñas y populares para luego ir adaptando progresivamente el diseño a las
+pantallas con más tamaños o más capacidades.
+
+Lo interesante de esto es que desde el inicio diseñamos nuestro sitio web no
+solo para los dispositivos más populares, sino también para los de usos más
+limitados, ya sea porque la pantalla es más pequeña, porque el rendimiento es
+menor o porque el navegador de un teléfono a veces es más limitado.
+
+Esta estrategia nos permite pensar en una experiencia y en un diseño que 
+funcione (podríamos decirlo) en los peores dispositivos. Mobile first por otro
+lado no significa que dejemos de pensar en los mejores equipos o en las
+computadoras. Más bien significa que iremos adaptando nuestra página para las
+nuevas capacidades y dimensiones más grandes luego de que hayamos definido la
+experiencia para los usuarios más populares.
+
+Mobile first es un concepto que agrupa distintas estrategias que implican el
+diseño, el rendimiento, las capacidades del hardware y más. En lo que respecta
+en cuanto al diseño, el primer paso para mobile first es que nuestras medias 
+queries estén diseñadas para los dispositivos más capaces y grandes y no para
+los menos.
+
+Es común que cuando estamos haciendo nuestra pagina web, nuestras medias queries
+estén pensadas para las pantallas pequeñas y no al revés como lo hemos ido 
+haciendo a lo largo del proyecto.
