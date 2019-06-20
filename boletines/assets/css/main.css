@@ -18,6 +18,10 @@ a {
     color: #3F51B5;
 }
 
+img {
+    max-width: 100%;
+}
+
 a:hover {
     opacity: 0.8;
 }
@@ -48,9 +52,8 @@ a:focus {
 
 .content {
     max-width: 960px;
-    max-height: 500px;
     width: 100%;
-    height: 100%;
+    height: 80vh;
     background-color: #FFF;
     /* box-shadow: diferenciaHorizontal, diferenciaVertical, desenfoque, amplitud, color */
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
@@ -151,4 +154,40 @@ a:focus {
     /* Con Shorthand properties */
     border-radius: 4px;
     margin-right: 0.5em;
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 1em;
+    }
+
+    .table td, .table th {
+        padding: 0.8em 0em;
+        text-align: center;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    td:nth-of-type(1) {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    th {
+        display: none;
+    }
+
+    .title-items {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-height: 550px) {
+    .content {
+        height: 500px;
+    }
 }
