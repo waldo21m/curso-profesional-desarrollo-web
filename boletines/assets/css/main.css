@@ -57,6 +57,7 @@ a:focus {
     border-radius: 4px;
     position: relative;
     padding: 1.8em;
+    overflow: scroll;
 }
 
 .actions {
@@ -127,6 +128,8 @@ a:focus {
     font-weight: bold;
     color: #448AFF;
     font-size: 1.2em;
+    margin-top: 1em;
+    display: inline-block;
 }
 
 .main-image {
@@ -138,7 +141,7 @@ a:focus {
 .position {
     background-color: #448AFF;
     color: #FFFFFF;
-    padding: 10px;
+    padding: 0.5em;
     /* Sin Shorthand properties */
     /* border-top-left-radius: 2em;
     border-top-right-radius: 2em;
