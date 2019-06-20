@@ -1,0 +1,29 @@
+El viewport
+
+Es la parte visible de nuestra página para el usuario. El viewport cambia su
+tamaño dependiendo del dispositivo en el que estamos visualizando nuestro
+sitio web. Es claramente más pequeño en teléfonos que en las tablets, laptops
+o en computadoras de escritorio.
+
+La importancia del viewport crece conforme la cantidad de dispositivos que
+usamos para navegar en la web también incrementa. Inicialmente, la variaciones
+de los viewports eran mínimas ya que en la web se navegaba unicamente usando
+computadoras. En el presente existen miles de tamaños distintos en los que
+se puede visualizar nuestra página web.
+
+Actualmente, podemos ver que incluso en la vista del diseño adaptable, se siente
+que se hubiera escalado la página web y la hicieramos más pequeña. O como si
+hubiesemos activado el zoom y todo se viera más chico. La razón por la cual
+esto está sucediendo es porque el navegador está adaptando el tamaño pero del
+viewport para hacerlo más grande de lo que en realidad esta pantalla de teléfono
+mide. Este comportamiento se puede controlar mediante el siguiente meta dato:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Esta propiedad afecta el viewport y en él, especificamos dos cosas:
+    1. La propiedad width define el ancho del viewport.
+    2. La propiedad initial-scale que indica que el zoom inicial debe ser sin
+       zoom básicamente.
+
+Esto hace que nuestra página se rompa por completo pero lo acomodaremos en las
+siguientes lecciones. ESTE META DATO SIEMPRE TIENE QUE IR!

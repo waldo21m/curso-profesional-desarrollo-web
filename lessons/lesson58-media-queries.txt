@@ -1,0 +1,11 @@
+Media queries
+
+Nos permiten especificar una serie de propiedades que solo se aplicarán si una
+condición se cumple. Esta condición puede validar el tipo de pantalla, el
+tamaño o las capacidades del dispositivo. Por ejemplo: Si es una pantalla a
+colores o no, si tiene el estado hover, si es para impresión, si mide al menos
+960px de ancho, etc.
+
+Para especificar una media query, se utiliza la regla @media seguido de las
+condiciones que debe de cumplir.
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp

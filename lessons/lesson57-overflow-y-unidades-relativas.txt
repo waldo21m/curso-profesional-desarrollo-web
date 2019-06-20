@@ -1,0 +1,10 @@
+Overflow y unidades relativas
+
+No todo tiene que ser con unidades relativas, en ocasiones sigue siendo muy
+viable usar pixeles. Algo que si necesita nuestro sitio web es que el texto
+no se desborde... Y para ello usaremos la propiedad overflow, esta define
+como se comporta el contenido que se sale de las dimensiones del elemento.
+https://developer.mozilla.org/es/docs/Web/CSS/overflow
+
+Hay que recordar entonces que si estamos usando unidades relativas, debemos
+usar el porcentaje, los viewports, los EMs y los REMs.

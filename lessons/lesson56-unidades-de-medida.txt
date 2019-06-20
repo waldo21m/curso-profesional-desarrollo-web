@@ -1,0 +1,38 @@
+Unidades de medida
+
+En CSS existe una enorme variedad de unidades de medidas con las que podemos
+especificar tamaños, espacios y posiciones. En general, podemos dividir las
+unidades de medida en dos grandes grupos: Las unidades absolutas y las unidades
+relativas.
+
+Las unidades de medidas absolutas tienen el mismo valor sin importar en donde
+se definan, que dipositivos se esté usando, la resolución de la pantalla y en
+general, ningún factor externo las altera. Podemos decir de algún modo que son
+lo que son y punto. Algunas unidades pueden ser:
+    1. Pixeles (px).
+    2. Centímetros (cm).
+    3. Milímetros (mm).
+    4. Picas (pc).
+    5. Puntos (pt).
+
+Y algunas unidades relativas pueden ser:
+    1. Porcentajes (%) que son relativos al tamaño del contenedor.
+    2. Los EMs que son relativos al tamaño de la fuente del contenedor. Ejemplo:
+       si una fuente mide 12px, 2ems son equivalentes a 24pxs.
+    3. Los EXs (ex) que son relativos al alto de la letra x en minúscula.
+    4. Los REMs (rem) que son relativos al tamaño de la tipografía de TODO el
+       documento.
+    5. Los viewports (vw) donde cada unidad es 1% del ancho del viewport. De
+       manera similar tenemos al vh que es equivalente a 1% del alto del 
+       viewport. Una menos popular es vmin que es igual a 1% ya sea del ancho
+       o del alto, dependiendo de cual de los dos sea el más pequeño.
+
+Las unidades más usadas son los pixeles y las demás serán raramente usadas.
+En unidades relativas, tenemos los ems, los porcentajes y las unidades del
+viewport que son normalmente las principales y las más usadas.
+
+Se dejó este tema hasta la sección del diseño responsivo porque quizás el
+primer concepto que pueda recibir para que tu página se adapte es usar en
+todas las veces que se pueda unidades de medidas relativas, ya que, hacen
+que nuestro diseño sea flexible en vez de rígido (como lo hacen las unidades
+de medidas absolutas) y hace que se adapte a las distintas resoluciones.
