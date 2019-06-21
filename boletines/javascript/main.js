@@ -31,7 +31,7 @@ links.forEach(function (link) {
         //Quitamos y agregamos la clase animated porque sino no ocurre la animación
 
         setTimeout(function () {
-            location.href = "/boletines"
+            location.href = "../"
         }, 600);
 
         console.log(":)");
