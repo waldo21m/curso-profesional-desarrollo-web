@@ -1,0 +1,73 @@
+¿Qué es el DOM?
+
+Una vez que la página termina de cargarse, el navegador genera una representación
+de nuestro sitio web en forma de árbol, al que llamamos el Document Object Model,
+o como solemos llamarlo el DOM.
+
+El DOM le permite a JavaScript acceder, recorrer, crear, reemplazar, editar y
+eliminar los elementos HTML que conforman nuestra página, es una interfaz de
+programación estándar, esto quiere decir que está pensado como un medio de
+comunicación para acceder a los elementos que forman nuestro sitio web.
+
+El DOM se ve como un árbol en el que cada hoja o rama representa un elemento de
+HTML, la idea de representarlo como un árbol viene de buscar representar la
+jerarquía de nuestros documentos, es decir, quiénes son hijos de quién, cuáles
+son hermanos, etc.
+
+Supongamos que nuestra página web se forma del siguiente código:
+<html>
+    <head></head>
+    <body></body>
+</html>
+
+La representación de esta página tan sencilla sería tan simple como se ve a 
+continuación:
+                   HTML
+                    |
+-------------------------------------------------------------
+           |                            |
+         head                          body
+
+En este árbol, vemos como los elementos head y body son hijos de HTML, se deduce
+esto porque aparecen dentro de la declaración de la etiqueta HTML misma, entre la
+etiqueta que abre, y la que cierra.
+
+Esto nos permite introducir nuevos conceptos con los que vamos a referirnos a
+los elementos HTML, refiriéndonos al parentesco que existe entre ellos.
+
+En este ejemplo, decimos que head y body son hijos de html, y que html es su 
+padre.
+
+Con el código a continuación:
+<html>
+    <head></head>
+    <body>
+        <p></p>
+        <div></div>
+</body>
+</html>
+
+Podemos inferir lo siguiente, que p y div son hermanos e hijos de body, también
+pudiéramos decir que tanto p como div son hijos de HTML, porque se encuentran
+dentro de su declaración, de igual manera, consideramos únicamente a head y body
+como hijos directos de HTML, porque es su padre inmediato, p y div por otro 
+lado, no son hijos directos de html pero sí son de body.
+
+El DOM que representa este nuevo sitio se ve así:
+                  HTML
+                    |
+----------------------------------------------------
+            |                         |
+           head                     body
+                                      |
+                             -------------------
+                               |              |
+                               p            div
+
+A cada punto donde se conectan, o a cada elemento HTML, en el DOM, lo llamamos
+un nodo, en este caso tenemos un árbol con 6 nodos, uno por cada elemento HTML.
+
+Más adelante vamos a ver cómo, con JavaScript, podemos buscar elementos en el
+árbol para modificarlos u obtener los valores del elemento mismo. También,
+como parte del lenguaje, tenemos herramientas para eliminar nodos, crearlos
+o moverlos.

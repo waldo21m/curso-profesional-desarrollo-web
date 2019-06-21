@@ -1,0 +1,39 @@
+¿Qué es JavaScript?
+
+JavaScript es un lenguaje de programación, con el que podemos escribir código
+para resolver una gran variedad de tareas. Este lenguaje tiene varias
+características que iremos destacando a continuación.
+
+Primero, es multi plataforma, existen lenguajes que sólo se pueden ejecutar en
+un entorno específico, por ejemplo, sólo funciona en Mac, o sólo funcionan en
+teléfonos, etc. Cuando un lenguaje funciona en más de un entorno, lo llamamos
+multi plataforma, en el caso de JavaScript, los programas escritos en este
+lenguaje pueden ejecutarse usando un navegador, en una computadora con NodeJs,
+en robots, en drones, en teléfonos, etc.
+
+El lenguaje es tan diverso que se ha convertido en quizás el lenguaje de
+programación más popular en la actualidad, porque precisamente se usa en
+múltiples áreas de distintas industrias para resolver un sin fin de problemas.
+
+JavaScript no siempre fue lo que es hoy, sus inicios se remontan a los años 90,
+cuando Netscape desarrolló el lenguaje exclusivamente para ejecutarse en un
+navegador, con el propósito de realizar sitios dinámicos que pudieran, a través
+de un script de programación, interactuar con el usuario.
+
+Hoy, la mayoría de las páginas usan JavaScript para infinidad de propósitos
+distintos, desde controlar un menú, actualizar el sitio, cargar datos, ejecutar
+acciones dependiendo de la interacción del usuario con el sitio, mostrar anuncios,
+reproducir vídeos y muchísimo más.
+
+Dominar el lenguaje requiere de un curso por sí mismo, recientemente en
+CódigoFacilito producimos uno de los mejores cursos de JavaScript en español,
+mismo que puedes ver ingresando a 
+https://codigofacilito.com/cursos/javascript-profesional (ya lo hicimos :D)
+ahí aprenderás desde 0 el lenguaje, todas sus características, filosofía,
+mejores prácticas de uso y muchísimo más.
+
+En este curso, vamos a usar pequeños scripts de código con los que daremos
+dinamismo a nuestros proyectos y a los que creemos más adelante. Para terminar
+el proyecto de los boletines, no es necesario tomar el curso de JavaScript, sin
+embargo, para el proyecto final, vas a necesitar de más conocimientos, por lo
+que si nunca has trabajado con este lenguaje, te recomendamos tomar dicho curso.
