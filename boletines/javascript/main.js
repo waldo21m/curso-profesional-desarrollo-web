@@ -19,7 +19,7 @@ links.forEach(function (link) {
     link.addEventListener("click", function (e) {
         e.preventDefault();
         let content = document.querySelector(".content");
-        
+
         content.classList.remove("zoomInUp");
         content.classList.remove("animated");
         
@@ -27,6 +27,10 @@ links.forEach(function (link) {
         content.classList.add("animated");
         //Quitamos y agregamos la clase animated porque sino no ocurre la animación
 
+        setTimeout(function () {
+            location.href = "../"
+        }, 600);
+        
         console.log(":)");
     });
 });

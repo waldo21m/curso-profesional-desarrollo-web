@@ -1,0 +1,3 @@
+Timers
+
+Uso de los métodos setTimeout y setInterval
