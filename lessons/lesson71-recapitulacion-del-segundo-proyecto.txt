@@ -1,0 +1,20 @@
+Recapitulación del segundo proyecto
+
+Aprendimos:
+    - Como montar un servidor local en nuestra computadora.
+    - Como acceder con localhost.
+    - Aprendimos CSS desde archivos externos.
+    - Varios tipos de selectores y su importancia.
+    - Aprendimos de la necesidad de normalizadores CSS que quitan los estilos
+      que los distintos navegadores agregan a ciertos elementos de nuestra
+      página web.
+    - Aprendimos de la importancia de utilizar apropiadamente las etiquetas
+      HTML para darle sentido a nuestra página.
+    - Iconos.
+    - Tablas.
+    - Imágenes.
+    - Fuentes personalizadas.
+    - Y las bases sólidas de CSS y JS.
+
+Con esto ya tendremos bases sólidas para realizar cualquier otro curso o 
+realizar proyectos profesionales.
