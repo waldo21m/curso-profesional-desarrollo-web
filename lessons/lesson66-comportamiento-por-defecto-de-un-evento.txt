@@ -1,0 +1,1 @@
+Comportamiento por defecto de un evento
