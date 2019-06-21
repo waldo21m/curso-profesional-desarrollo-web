@@ -1,0 +1,3 @@
+Seleccionar múltiples elementos y recorrerlos
+
+El método document.querySelectorAll("a") devuelve una lista de nodos.

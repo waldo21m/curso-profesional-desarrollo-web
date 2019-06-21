@@ -122,6 +122,10 @@ th {
     color: #FFFFFF;
 }
 
+.table tr:nth-child(even) a {
+    color: #FFFFFF;
+}
+
 .title-items {
     /* border-bottom-style: solid;
     border-width: 2px;
