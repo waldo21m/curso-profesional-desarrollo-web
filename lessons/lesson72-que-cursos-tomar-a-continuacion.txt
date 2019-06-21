@@ -1,0 +1,8 @@
+¿Qué cursos tomar a continuación?
+
+Lista:
+    - Curso a fondo de CSS.
+    - Curso Profesional de JavaScript (Completado).
+    - Proyecto Avanzado de Desarrollador Web Frontend.
+    - JavaScript y el DOM (Completado).
+    - Curso de controles y efectos Frontend.
